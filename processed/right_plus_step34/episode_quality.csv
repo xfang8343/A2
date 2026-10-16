@@ -1,0 +1,107 @@
+﻿episode_id,aligned_samples,valid_samples,invalid_samples,span_s,camera_receive_header_median_ms,camera_max_source_gap_ms,start_coverage_loss_s,tail_grid_loss_s,warnings
+right_001/20261008_110841_e6b694,524,524,0,52.3,81.168909,67.281008,0,0.041710592,
+right_002/20261008_152628_bae9b3,515,515,0,51.4,81.33131800000001,67.295313,0.597265184,0.061009408,"Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped; Video starts 0.597 s before all joint streams are available; source video retained, no invented joint observations"
+right_003/20261008_152821_877267,504,504,0,50.3,80.76305500000001,67.265988,0.310242688,0.119782208,"Video starts 0.310 s before all joint streams are available; source video retained, no invented joint observations"
+right_004/20261008_152941_14293b,465,465,0,46.4,81.001239,67.274094,0,0.093516704,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_005/20261008_153051_7076de,476,476,0,47.5,81.39637,67.374945,0.208583072,0.056748608,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_006/20261008_153204_f7a2fc,559,559,0,55.8,80.960054,67.263127,0.822380448,0.146095616,"Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped; Video starts 0.822 s before all joint streams are available; source video retained, no invented joint observations"
+right_007/20261008_153318_36206b,472,472,0,47.1,81.076585,67.30485,0,0.08215056,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_008/20261008_153424_361f64,454,454,0,45.3,80.952146,67.307234,0.965796192,0.055457536,"Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped; Video starts 0.966 s before all joint streams are available; source video retained, no invented joint observations"
+right_009/20261008_153530_deb275,490,490,0,48.9,81.569783,67.392826,0,0.134541632,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_010/20261008_153635_6978c9,395,395,0,39.4,81.448607,67.245722,0,0.100021952,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_011/20261009_141610_1c5983,441,439,2,44.0,80.36143200000001,67.362547,0,0.130403776,2 aligned rows have stale data; valid_sample mask must be used by future sequence sampler; Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_012/20261009_141803_2f1877,330,330,0,32.9,81.051698,67.281723,0,0.150824896,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_013/20261009_141942_4f0db4,416,416,0,41.5,80.270309,67.602158,0,0.088474816,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_014/20261009_142129_90c293,415,415,0,41.4,81.129322,67.286014,0.193777504,0.056505696,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_015/20261009_142328_c16109,367,366,1,36.6,81.502999,201.610327,0,0.151352224,Camera source frame gap 201.6 ms; all original frames retained; 1 aligned rows have stale data; valid_sample mask must be used by future sequence sampler; Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_016/20261009_144448_71de38,456,456,0,45.5,81.7233845,67.221164,0,0.094429216,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_017/20261009_144633_aa4372,439,439,0,43.8,81.6332265,67.301273,0,0.077644512,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_018/20261009_144825_b12307,383,383,0,38.2,81.5600535,67.363978,0,0.033659744,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_019/20261009_145002_b5e57d,387,387,0,38.6,81.2609015,67.311049,0.21678784,0.08448336,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_020/20261009_145140_408157,471,471,0,47.0,81.90064,67.223072,0,0.036220512,
+right_021/20261012_101357_6bb916,337,337,0,33.6,81.364867,67.453384,0,0.118337408,
+right_022/20261012_093521_9f0f48,296,296,0,29.5,81.0264635,67.238808,0.826485792,0.098143328,"Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped; Video starts 0.826 s before all joint streams are available; source video retained, no invented joint observations"
+right_023/20261012_093755_f543b8,344,344,0,34.3,81.1315585,67.290783,0,0.161854816,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_024/20261012_093945_053200,355,355,0,35.4,81.2505,67.232847,0,0.088933536,
+right_025/20261012_094115_7ff8fd,361,361,0,36.0,81.510422,67.260743,0,0.091866528,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_026/20261012_094245_c429a7,381,381,0,38.0,80.850903,67.51442,0,0.02484208,
+right_027/20261012_101706_33f729,448,448,0,44.7,81.3521375,67.197085,0,0.102653728,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_028/20261012_101847_b4ec81,365,365,0,36.4,81.832788,67.250729,0.910064704,0.104018432,"Video starts 0.910 s before all joint streams are available; source video retained, no invented joint observations"
+right_029/20261012_102304_8c53f6,515,515,0,51.4,80.525937,67.371368,0,0.08429584,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_030/20261012_102521_4ac259,393,393,0,39.2,80.636323,67.31224,0,0.044861216,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_031/20261012_103655_8bfc31,364,364,0,36.3,81.137052,67.227602,0,0.109531168,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_032/20261012_103833_90f7c6,411,411,0,41.0,80.113025,67.385912,0,0.1135216,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_033/20261012_104408_3a0b84,511,511,0,51.0,81.253732,67.373276,0,0.0595384,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_034/20261012_104642_631e1e,417,417,0,41.6,80.86788,67.304373,0,0.040862144,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_035/20261012_104944_9d004b,418,418,0,41.7,80.7217265,67.265272,0.618990752,0.081770688,"Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped; Video starts 0.619 s before all joint streams are available; source video retained, no invented joint observations"
+right_036/20261013_140213_2ebea7,476,476,0,47.5,81.085466,67.303181,0,0.064108672,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_037/20261013_140552_d26de4,371,371,0,37.0,81.997912,67.242384,0,0.026771392,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_038/20261013_140733_3b5efa,407,407,0,40.6,80.456764,67.255497,0,0.106865536,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_039/20261013_140922_5d7b21,476,476,0,47.5,81.349767,67.296266,0,0.056283072,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_040/20261013_141114_5de877,425,425,0,42.4,80.862605,67.361593,0.227675392,0.09544752,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_041/20261013_141257_41adfb,389,389,0,38.8,80.570666,67.222357,0,0.138990624,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_042/20261013_141433_67addd,343,343,0,34.2,81.204337,67.298174,0,0.12296976,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_043/20261013_141618_8b5013,334,334,0,33.3,81.313732,67.287445,0,0.093186336,
+right_044/20261013_141752_d99d1f,422,422,0,42.1,81.696888,67.232132,0.030790976,0.054366752,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_045/20261013_141931_37600f,423,423,0,42.2,81.075316,70.60051,0,0.102960288,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_046/20261013_142116_6b5b55,394,394,0,39.3,81.203243,67.369937,0,0.083098176,
+right_047/20261013_144328_eab337,353,353,0,35.2,80.862948,67.224979,0,0.157190944,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_048/20261013_144457_40e5e3,340,340,0,33.9,81.108023,67.269802,0,0.035479776,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_049/20261013_144624_84f92c,409,409,0,40.8,81.2386075,67.231894,0,0.117968928,
+right_050/20261013_144802_3b8d7f,332,328,4,33.1,81.4400015,67.263603,0.67288192,0.1729352,"4 aligned rows have stale data; valid_sample mask must be used by future sequence sampler; Video starts 0.673 s before all joint streams are available; source video retained, no invented joint observations"
+right_051/20261013_144925_45b720,339,339,0,33.8,81.420707,67.235709,0,0.075501472,
+right_052/20261013_145054_5f9514,335,335,0,33.4,82.0276675,67.229748,0,0.13388368,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_053/20261013_145221_0d19f0,418,418,0,41.7,81.229945,67.21282,0.93272352,0.076297024,"Video starts 0.933 s before all joint streams are available; source video retained, no invented joint observations"
+right_054/20261013_145353_d1ac97,354,354,0,35.3,81.148892,67.317963,0.113517728,0.089972224,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_055/20261013_145515_9fad33,322,322,0,32.1,81.05943149999999,67.332267,0.618874752,0.128020096,"Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped; Video starts 0.619 s before all joint streams are available; source video retained, no invented joint observations"
+right_056/20261013_145641_4b5ade,372,372,0,37.1,80.52461199999999,67.262411,0.103438976,0.112525984,
+right_057/20261013_151138_5e3928,320,320,0,31.9,81.174822,67.342043,0.426823808,0.060886656,"Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped; Video starts 0.427 s before all joint streams are available; source video retained, no invented joint observations"
+right_058/20261013_151308_563973,392,392,0,39.1,81.623879,67.240476,0,0.063736608,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_059/20261013_151448_7e0dd3,386,386,0,38.5,81.530745,67.231178,0,0.107464128,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_060/20261013_151633_d107ae,348,348,0,34.7,81.265134,67.26265,0,0.098426432,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_061/20261013_151759_609ebf,371,371,0,37.0,81.012427,67.359686,0.50167936,0.132782304,"Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped; Video starts 0.502 s before all joint streams are available; source video retained, no invented joint observations"
+right_062/20261013_151930_ee4ef1,337,337,0,33.6,81.505708,67.222595,0.718317472,0.099466912,"Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped; Video starts 0.718 s before all joint streams are available; source video retained, no invented joint observations"
+right_063/20261013_152058_85712e,360,359,1,35.9,81.5414545,268.85271,0,0.109871808,Camera source frame gap 268.9 ms; all original frames retained; 1 aligned rows have stale data; valid_sample mask must be used by future sequence sampler; Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_064/20261013_152223_5485f2,336,336,0,33.5,80.605349,134.49955,0.62930416,0.058829248,"Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped; Video starts 0.629 s before all joint streams are available; source video retained, no invented joint observations"
+right_065/20261013_152347_18071e,299,299,0,29.8,80.700108,67.244053,0.470455424,0.1432752,"Video starts 0.470 s before all joint streams are available; source video retained, no invented joint observations"
+right_066/20261013_152514_a35cc1,492,492,0,49.1,81.58072050000001,67.325592,0.109259904,0.026714784,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_067/20261013_152748_820628,325,325,0,32.4,80.504981,67.355871,0.904902144,0.126580384,"Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped; Video starts 0.905 s before all joint streams are available; source video retained, no invented joint observations"
+right_068/20261013_152918_f7e48e,468,468,0,46.7,81.141031,134.432554,1.022808832,0.12067328,"Camera source stamps repeat=1, backwards=0; original frame and receipt order retained; Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped; Video starts 1.023 s before all joint streams are available; source video retained, no invented joint observations"
+right_069/20261014_101309_11203d,367,367,0,36.6,80.512865,67.270994,0,0.147969504,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_070/20261014_101521_609ac2,273,273,0,27.2,81.022066,67.314148,0,0.092448704,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_071/20261014_101640_7d6f20,330,329,1,32.9,81.173519,67.247152,0.716895808,0.078947616,"1 aligned rows have stale data; valid_sample mask must be used by future sequence sampler; Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped; Video starts 0.717 s before all joint streams are available; source video retained, no invented joint observations"
+right_072/20261014_101803_d7a815,307,307,0,30.6,80.702074,67.373515,0,0.029031168,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_073/20261014_101924_cc0c80,338,338,0,33.7,80.364214,67.240954,0.053173856,0.109324544,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_074/20261014_102131_78e9d8,510,510,0,50.9,81.209947,67.36517,0,0.163646368,
+right_075/20261014_102312_d9c9ca,359,359,0,35.8,80.80961099999999,67.307234,0.034437248,0.092936672,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_076/20261014_102439_ff7068,313,313,0,31.2,80.60488749999999,67.367792,0.155913824,0.130697696,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_077/20261014_102949_b56d5e,300,300,0,29.9,80.720687,67.325592,0.965037952,0.097836704,"Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped; Video starts 0.965 s before all joint streams are available; source video retained, no invented joint observations"
+right_078/20261014_103113_71c8ed,426,426,0,42.5,81.19593,67.337752,0,0.124295552,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_079/20261014_103439_1ba287,320,320,0,31.9,80.400905,67.409516,0,0.061814688,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_147/20261015_153750_23ab28,330,330,0,32.9,80.6554565,67.380905,0,0.076544864,
+right_149/20261015_153914_1cc798,397,397,0,39.6,81.129624,67.33036,0,0.11414112,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_151/20261015_154145_b02e6b,338,338,0,33.7,81.283575,67.304372,0,0.094899136,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_153/20261015_154310_5b12ff,335,335,0,33.4,82.107014,67.222357,0.8849528,0.111231168,"Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped; Video starts 0.885 s before all joint streams are available; source video retained, no invented joint observations"
+right_155/20261015_154515_32fa90,624,621,3,62.3,80.71589399999999,67.26098,0.82399584,0.104953152,"3 aligned rows have stale data; valid_sample mask must be used by future sequence sampler; Video starts 0.824 s before all joint streams are available; source video retained, no invented joint observations"
+right_157/20261015_154702_004931,325,325,0,32.4,81.479279,67.342519,0,0.109315776,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_159/20261015_154816_2535cc,251,251,0,25.0,81.396063,67.271232,0,0.120571424,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_161/20261015_154928_b98bad,284,284,0,28.3,80.6353675,67.339182,0,0.11652304,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_163/20261015_155328_8c6818,283,282,1,28.2,80.8484325,201.549531,0,0.082548576,Camera source frame gap 201.5 ms; all original frames retained; 1 aligned rows have stale data; valid_sample mask must be used by future sequence sampler; Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_165/20261015_155455_3ad352,291,291,0,29.0,80.5967115,67.322016,0,0.085561632,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_167/20261015_155648_f30cb8,318,318,0,31.7,81.473513,67.233563,0,0.147651616,
+right_169/20261015_155811_11ba97,348,347,1,34.7,80.1959595,67.313909,0.766819744,0.065060608,"1 aligned rows have stale data; valid_sample mask must be used by future sequence sampler; Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped; Video starts 0.767 s before all joint streams are available; source video retained, no invented joint observations"
+right_171/20261015_155937_474155,399,399,0,39.8,80.34901,67.307949,0,0.10576304,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_173/20261015_160111_3c396c,289,289,0,28.8,81.849562,67.234755,0,0.078335264,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_175/20261015_160230_b6b8f9,293,292,1,29.2,80.6180975,201.557636,1.04712128,0.0413056,"Camera source frame gap 201.6 ms; all original frames retained; 1 aligned rows have stale data; valid_sample mask must be used by future sequence sampler; Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped; Video starts 1.047 s before all joint streams are available; source video retained, no invented joint observations"
+right_177/20261015_161009_b41958,311,308,3,31.0,80.04025150000001,67.315817,0.663150752,0.110654816,"3 aligned rows have stale data; valid_sample mask must be used by future sequence sampler; Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped; Video starts 0.663 s before all joint streams are available; source video retained, no invented joint observations"
+right_179/20261015_161239_46271c,352,352,0,35.1,82.2917085,67.34109,0.918898176,0.072475776,"Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped; Video starts 0.919 s before all joint streams are available; source video retained, no invented joint observations"
+right_181/20261015_161409_8c4ace,300,300,0,29.9,81.4160185,67.267895,0,0.122117824,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_183/20261015_161621_804cf7,266,266,0,26.5,80.661342,67.298174,0.564198272,0.06841936,"Video starts 0.564 s before all joint streams are available; source video retained, no invented joint observations"
+right_185/20261015_161742_2eb3d6,253,253,0,25.2,81.670854,67.256928,0,0.05347504,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_187/20261015_161900_f7c135,290,290,0,28.9,80.048644,67.23094,0.814922592,0.096567392,"Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped; Video starts 0.815 s before all joint streams are available; source video retained, no invented joint observations"
+right_189/20261015_162018_7095b0,283,283,0,28.2,80.713731,67.38615,0.618269152,0.068391648,"Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped; Video starts 0.618 s before all joint streams are available; source video retained, no invented joint observations"
+right_191/20261015_162137_deb3c9,325,325,0,32.4,80.812946,67.234278,0,0.11580784,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_193/20261015_162256_0c853b,361,358,3,36.0,81.1731355,67.271472,0,0.071138144,3 aligned rows have stale data; valid_sample mask must be used by future sequence sampler; Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped
+right_195/20261015_162433_ca9595,325,325,0,32.4,80.5119255,67.31844,0,0.045234208,
+right_197/20261015_162551_186273,298,298,0,29.7,81.251002,67.242623,0.61394752,0.035666624,"Video starts 0.614 s before all joint streams are available; source video retained, no invented joint observations"
+right_199/20261015_162708_2ff123,442,442,0,44.1,81.216877,67.250252,0,0.086735264,Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped

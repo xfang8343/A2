@@ -1,0 +1,142 @@
+syntax = "proto3";
+
+package aimdk.protocol;
+
+import public "aimdk/protocol/common/header.proto";
+import public "aimdk/protocol/common/rpc.proto";
+import public "aimdk/protocol/mc/motion/planning.proto";
+
+message StandbyModeRequest {
+  RequestHeader header = 1;   // 请求头
+  bool enable = 2;            // 设置待机开关
+}
+
+message StandbyTimeRequest {
+  RequestHeader header = 1;   // 请求头
+  uint64 duration = 2;        // 设置待机时长，单位s
+}
+
+message StandbyConfigResponse {
+  ResponseHeader header = 1;  // 响应头
+  bool enable = 2;            // 待机开关
+  uint64 duration = 3;        // 待机时长，单位s
+}
+
+enum AtomicSkillType{
+  Test      = 0; // 测试
+  Audio     = 1; // 语音
+  Emoticon  = 2; // 表情
+  Motion    = 3; // 动作
+}
+
+enum AtomicSkillSubType{
+  NotUsed = 0;
+  Audio_File = 1;
+  Audio_TTS = 2;
+  Motion_Pose = 3;
+  Motion_Dance = 4;
+  Motion_Action = 5;
+}
+
+message AtomicSkill{
+  AtomicSkillType skill_type= 1;          // 技能类型
+  AtomicSkillSubType skill_sub_type= 2;   // 技能子类型
+  uint64 start_time = 3;                  //技能开始时间
+  uint64 duration =4;                     //技能使用时间,若设置为0表示从资源文件中提取
+  string path=5;                          // 资源路径
+}
+
+enum SkillCommandType{
+  Unknown = 0;
+  Start   = 1;
+  Pause   = 2;
+  Stop    = 3;
+}
+
+// 开始技能
+// + command = Start
+// + skills
+// + wait_time
+// 暂停技能
+// + command = Pause
+// + session_id
+// 结束技能
+// + command = Stop
+// + session_id
+message SkillCommandRequest {
+  RequestHeader header = 1;                   // 请求头
+  string source=2;                            // 来源，例如客户端填写aimmaster，仅用于打印
+  SkillCommandType command=3;                 // 技能命令类型
+  repeated AtomicSkill skills=4;              // 原子技能组合
+  optional string session_id =5 ;             // 技能会话id，主要用于暂停和结束
+  optional uint64 wait_time =6;               // 若可以等待则设置为大于0的整数，单位是ms，例如已经在运行一个会话了需要等前一个完成
+}
+
+message SkillCommandResponse{
+  ResponseHeader header = 1;  // 响应头
+  uint64 available_time = 2;  // 最早可用时间
+  string session_id = 3;      // 若技能正确安排，则有uuid
+}
+
+// 开始技能
+// + command = Start
+// + path
+// 暂停技能
+// + command = Pause
+// + session_id
+// 结束技能
+// + command = Stop
+// + session_id
+message SkillPackageRequest {
+  RequestHeader header = 1;                   // 请求头
+  string source=2;                            // 来源，例如客户端填写aimmaster，仅用于打印
+  SkillCommandType command = 3;               // 技能命令类型
+  optional string path =4;                    // 技能包路径
+  optional string session_id = 5;             // 技能会话id，主要用于暂停和结束
+}
+
+message SkillPackageResponse {
+  ResponseHeader header = 1;  // 响应头
+  uint64 available_time = 2;  // 最早可用时间
+  string session_id = 3;      // 若技能正确安排，则有uuid
+}
+
+enum RestPointCommand {
+  SitDown = 0;
+  StandUp = 1;
+}
+
+message RestPointRequest {
+  ResponseHeader header = 1;  // 响应头
+  RestPointCommand command = 2; 
+}
+
+enum SkillSessionType {
+  UnknownType = 0;
+  Normal = 1;       // 普通
+  SitUpOrDown = 2;  // 站起和坐下
+}
+
+enum SkillSessionStatus {
+  InPlan = 0;               // 技能编排成功进入队列
+  Running = 1;              // 技能运行中
+  RunningSuccess = 2;       // 技能运行成功
+  RunningFailed = 3;        // 技能运行失败
+  Running2 = 4;             // 技能运行中，临时方案
+}
+
+message SkillStatus {
+  SkillSessionType type = 1;
+  string session_id = 2;
+  SkillSessionStatus status = 3;
+}
+
+service SkillPilotService {
+  rpc SetStandbyMode(StandbyModeRequest) returns (CommonResponse);
+  rpc SetStandbyTime(StandbyTimeRequest) returns (CommonResponse);
+  rpc GetStandbyConfig(CommonRequest) returns (StandbyConfigResponse);
+  rpc InteractiveMove(InteractiveMoveRequest) returns (CommonTaskResponse);
+  rpc SkillCommand(SkillCommandRequest) returns (SkillCommandResponse);
+  rpc SkillPackage(SkillPackageRequest) returns (SkillCommandResponse);
+  rpc RestPoint(RestPointRequest) returns (SkillCommandResponse);
+}

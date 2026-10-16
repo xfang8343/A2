@@ -1,0 +1,115 @@
+{
+  "format": "a2_grasp_rosbag_v1",
+  "created_utc": "2026-10-15T07:45:15.609+00:00",
+  "task": "grasp_cup_right",
+  "object": "cup_01",
+  "operator": "op_01",
+  "side": "right",
+  "camera_set": "head",
+  "visual_mode": "video",
+  "video_topics": [
+    "/aima/hal/rgbd_camera/head_front/color"
+  ],
+  "video_fps": {
+    "head": 15
+  },
+  "outcome": "unlabelled",
+  "notes": "",
+  "robot_model": "A2",
+  "aimdk_version": "v1.3",
+  "ros_domain_id": "232",
+  "required_topics": [
+    "/motion/control/arm_joint_state",
+    "/motion/control/hand_joint_state"
+  ],
+  "control_topics": [
+    "/motion/control/arm_joint_command",
+    "/motion/control/hand_joint_command",
+    "/rc/data/pb_3Aaimdk_2Eprotocol_2ERemoteControlChannel"
+  ],
+  "selected_topics": [
+    "/motion/control/arm_joint_state",
+    "/motion/control/hand_joint_state",
+    "/motion/control/arm_joint_command",
+    "/motion/control/hand_joint_command",
+    "/rc/data/pb_3Aaimdk_2Eprotocol_2ERemoteControlChannel"
+  ],
+  "discovered_types": {
+    "/motion/control/arm_joint_state": "sensor_msgs/msg/JointState",
+    "/motion/control/hand_joint_state": "sensor_msgs/msg/JointState",
+    "/motion/control/arm_joint_command": "sensor_msgs/msg/JointState",
+    "/motion/control/hand_joint_command": "sensor_msgs/msg/JointState",
+    "/rc/data/pb_3Aaimdk_2Eprotocol_2ERemoteControlChannel": "ros2_plugin_proto/msg/RosMsgWrapper",
+    "/aima/hal/rgbd_camera/head_front/color": "sensor_msgs/msg/Image"
+  },
+  "allow_state_only": false,
+  "skip_proto": false,
+  "requested_duration_s": 180.0,
+  "docs": [
+    "https://open.agibot.com/docs/aimdk/a2/v1_3/dev_guide/03-second_develop_interface_overview",
+    "https://open.agibot.com/docs/aimdk/a2/v1_3/dev_guide/07-01-motion_control",
+    "https://open.agibot.com/docs/aimdk/a2/v1_3/dev_guide/07-04-sensor_data"
+  ],
+  "ended_utc": "2026-10-15T07:46:20.217+00:00",
+  "elapsed_s": 63.17,
+  "recorder_exit_code": 0,
+  "video_recorder_exit_code": 0,
+  "validation": {
+    "checked_utc": "2026-10-15T07:46:20.342+00:00",
+    "valid": true,
+    "errors": [],
+    "control_messages": 59975,
+    "topics": {
+      "/motion/control/arm_joint_command": {
+        "type": "sensor_msgs/msg/JointState",
+        "messages": 29990,
+        "first_bag_ns": 1792050317310096448,
+        "last_bag_ns": 1792050379682786208,
+        "approx_hz": 480.8
+      },
+      "/motion/control/arm_joint_state": {
+        "type": "sensor_msgs/msg/JointState",
+        "messages": 6233,
+        "first_bag_ns": 1792050317321188832,
+        "last_bag_ns": 1792050379680487680,
+        "approx_hz": 99.94
+      },
+      "/motion/control/hand_joint_command": {
+        "type": "sensor_msgs/msg/JointState",
+        "messages": 29985,
+        "first_bag_ns": 1792050317315691744,
+        "last_bag_ns": 1792050379682814688,
+        "approx_hz": 480.77
+      },
+      "/rc/data/pb_3Aaimdk_2Eprotocol_2ERemoteControlChannel": {
+        "type": "ros2_plugin_proto/msg/RosMsgWrapper",
+        "messages": 0,
+        "first_bag_ns": null,
+        "last_bag_ns": null,
+        "approx_hz": null
+      },
+      "/motion/control/hand_joint_state": {
+        "type": "sensor_msgs/msg/JointState",
+        "messages": 6231,
+        "first_bag_ns": 1792050317340222272,
+        "last_bag_ns": 1792050379680507264,
+        "approx_hz": 99.94
+      }
+    },
+    "videos": {
+      "head": {
+        "topic": "/aima/hal/rgbd_camera/head_front/color",
+        "fps_nominal": 15,
+        "received": 942,
+        "written": 942,
+        "dropped": 0,
+        "encoder_exit_code": 0,
+        "first_header_ns": 1792050316423312902,
+        "last_header_ns": 1792050379662005186,
+        "first_receive_ns": 1792050316516226432,
+        "last_receive_ns": 1792050379745175424,
+        "error": null
+      }
+    }
+  }
+}

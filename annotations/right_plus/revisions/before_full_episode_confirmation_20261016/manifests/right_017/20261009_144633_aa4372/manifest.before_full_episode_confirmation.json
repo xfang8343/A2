@@ -1,0 +1,127 @@
+{
+  "format": "a2_grasp_rosbag_v1",
+  "created_utc": "2026-10-09T06:46:33.825+00:00",
+  "task": "right_plus_stack_cubes",
+  "object": "large_medium_small_cubes",
+  "operator": "op_01",
+  "side": "right",
+  "camera_set": "head",
+  "visual_mode": "video",
+  "video_topics": [
+    "/aima/hal/rgbd_camera/head_front/color"
+  ],
+  "video_fps": {
+    "head": 15
+  },
+  "outcome": "success",
+  "notes": "",
+  "robot_model": "A2",
+  "aimdk_version": "v1.3",
+  "ros_domain_id": "232",
+  "required_topics": [
+    "/motion/control/arm_joint_state",
+    "/motion/control/hand_joint_state"
+  ],
+  "control_topics": [
+    "/motion/control/arm_joint_command",
+    "/motion/control/hand_joint_command",
+    "/rc/data/pb_3Aaimdk_2Eprotocol_2ERemoteControlChannel"
+  ],
+  "selected_topics": [
+    "/motion/control/arm_joint_state",
+    "/motion/control/hand_joint_state",
+    "/motion/control/arm_joint_command",
+    "/motion/control/hand_joint_command",
+    "/rc/data/pb_3Aaimdk_2Eprotocol_2ERemoteControlChannel"
+  ],
+  "discovered_types": {
+    "/motion/control/arm_joint_state": "sensor_msgs/msg/JointState",
+    "/motion/control/hand_joint_state": "sensor_msgs/msg/JointState",
+    "/motion/control/arm_joint_command": "sensor_msgs/msg/JointState",
+    "/motion/control/hand_joint_command": "sensor_msgs/msg/JointState",
+    "/rc/data/pb_3Aaimdk_2Eprotocol_2ERemoteControlChannel": "ros2_plugin_proto/msg/RosMsgWrapper",
+    "/aima/hal/rgbd_camera/head_front/color": "sensor_msgs/msg/Image"
+  },
+  "allow_state_only": false,
+  "skip_proto": false,
+  "requested_duration_s": 180.0,
+  "docs": [
+    "https://open.agibot.com/docs/aimdk/a2/v1_3/dev_guide/03-second_develop_interface_overview",
+    "https://open.agibot.com/docs/aimdk/a2/v1_3/dev_guide/07-01-motion_control",
+    "https://open.agibot.com/docs/aimdk/a2/v1_3/dev_guide/07-04-sensor_data"
+  ],
+  "ended_utc": "2026-10-09T06:47:21.009+00:00",
+  "elapsed_s": 45.75,
+  "recorder_exit_code": 0,
+  "video_recorder_exit_code": 0,
+  "validation": {
+    "checked_utc": "2026-10-09T06:47:21.106+00:00",
+    "valid": true,
+    "errors": [],
+    "control_messages": 44136,
+    "topics": {
+      "/motion/control/arm_joint_command": {
+        "type": "sensor_msgs/msg/JointState",
+        "messages": 22071,
+        "first_bag_ns": 1791528395481979040,
+        "last_bag_ns": 1791528440475944544,
+        "approx_hz": 490.51
+      },
+      "/motion/control/arm_joint_state": {
+        "type": "sensor_msgs/msg/JointState",
+        "messages": 4499,
+        "first_bag_ns": 1791528395493145184,
+        "last_bag_ns": 1791528440471520480,
+        "approx_hz": 100.0
+      },
+      "/motion/control/hand_joint_command": {
+        "type": "sensor_msgs/msg/JointState",
+        "messages": 22065,
+        "first_bag_ns": 1791528395493172864,
+        "last_bag_ns": 1791528440475973056,
+        "approx_hz": 490.5
+      },
+      "/rc/data/pb_3Aaimdk_2Eprotocol_2ERemoteControlChannel": {
+        "type": "ros2_plugin_proto/msg/RosMsgWrapper",
+        "messages": 0,
+        "first_bag_ns": null,
+        "last_bag_ns": null,
+        "approx_hz": null
+      },
+      "/motion/control/hand_joint_state": {
+        "type": "sensor_msgs/msg/JointState",
+        "messages": 4496,
+        "first_bag_ns": 1791528395528477024,
+        "last_bag_ns": 1791528440471555488,
+        "approx_hz": 100.02
+      }
+    },
+    "videos": {
+      "head": {
+        "topic": "/aima/hal/rgbd_camera/head_front/color",
+        "fps_nominal": 15,
+        "received": 654,
+        "written": 654,
+        "dropped": 0,
+        "encoder_exit_code": 0,
+        "first_header_ns": 1791528396528486728,
+        "last_header_ns": 1791528440413980007,
+        "first_receive_ns": 1791528396619613344,
+        "last_receive_ns": 1791528440497257856,
+        "error": null
+      }
+    }
+  },
+  "acquisition_labels_original": {
+    "task": "grasp_cup_right",
+    "object": "cup_01",
+    "outcome": "unlabelled"
+  },
+  "labelled_utc": "2026-10-16T00:37:06+00:00",
+  "annotation": {
+    "task_definition_version": 1,
+    "outcome_source": "user_confirmation",
+    "boundary_review_status": "pending",
+    "independent_visual_success_review": "not_performed"
+  }
+}

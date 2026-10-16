@@ -1,0 +1,419 @@
+{
+  "episode_id": "right_159/20261015_154816_2535cc",
+  "task": "right_plus_stack_cubes",
+  "outcome": "success",
+  "source_session": "/home/fx/A2/data/right/right+/right_159/20261015_154816_2535cc",
+  "head_video": "/home/fx/A2/data/right/right+/right_159/20261015_154816_2535cc/video/head.mp4",
+  "source_fingerprints": {
+    "right_159/20261015_154816_2535cc/manifest.json": {
+      "size": 4349,
+      "mtime_ns": 1792115091907287245,
+      "sha256": "8690f6bb7786007f641a954c8c307a88beb8cd6fc770f7d96411a213de6df8f5"
+    },
+    "right_159/20261015_154816_2535cc/video/head.mp4": {
+      "size": 16995725,
+      "mtime_ns": 1792050524444000000
+    },
+    "right_159/20261015_154816_2535cc/video/head_timestamps.csv": {
+      "size": 16810,
+      "mtime_ns": 1792050524420000000,
+      "sha256": "23bdb9abd63b232534676ff92f4a07e3335e43ed7370756ff6d213e513ed36fb"
+    },
+    "right_159/20261015_154816_2535cc/bag/bag_0.db3": {
+      "size": 18931712,
+      "mtime_ns": 1792050524208000000
+    }
+  },
+  "data_file": "episodes/right_159__20261015_154816_2535cc.npz",
+  "aligned_samples": 251,
+  "valid_samples": 251,
+  "invalid_samples": 0,
+  "alignment_hz": 10.0,
+  "first_decision_ns": 1792050499138949280,
+  "last_decision_ns": 1792050524138949280,
+  "aligned_span_s": 25.0,
+  "video_start_without_common_coverage_s": 0,
+  "video_tail_without_grid_sample_s": 0.120571424,
+  "camera": {
+    "width": 1280,
+    "height": 720,
+    "fps": 15.0,
+    "frames": 375,
+    "playback_duration_s": 25.0,
+    "frame_gap_ms": {
+      "min": 67.16609,
+      "median": 67.178011,
+      "p95": 67.21926925,
+      "p99": 67.26737231999999,
+      "max": 67.271232
+    },
+    "header_duplicate_count": 0,
+    "header_backwards_count": 0,
+    "receive_minus_header_ms": {
+      "min": 73.836909,
+      "median": 81.396063,
+      "p95": 91.1217208,
+      "p99": 97.81820309999999,
+      "max": 101.960221
+    },
+    "selected_receive_age_ms": {
+      "min": 0.0,
+      "median": 34.278752,
+      "p95": 67.42281600000001,
+      "p99": 72.64135999999999,
+      "max": 84.056288
+    },
+    "selected_capture_age_ms": {
+      "min": 74.334317,
+      "median": 115.90045,
+      "p95": 147.9375895,
+      "p99": 154.005247,
+      "max": 162.197953
+    },
+    "max_frame_index_used": 372
+  },
+  "joint_streams": {
+    "arm_state": {
+      "messages": 2678,
+      "receive_hz": 99.99686452864735,
+      "source_names": [
+        [
+          "idx20_right_arm_joint1",
+          "idx21_right_arm_joint2",
+          "idx22_right_arm_joint3",
+          "idx23_right_arm_joint4",
+          "idx24_right_arm_joint5",
+          "idx25_right_arm_joint6",
+          "idx26_right_arm_joint7"
+        ]
+      ],
+      "first_receive_ns": 1792050497430703552,
+      "last_receive_ns": 1792050524201542944,
+      "header_nonpositive_count": 0,
+      "header_backwards_count": 0,
+      "duplicate_receive_count": 0,
+      "max_receive_gap_ms": 20.845888,
+      "receive_minus_header_ms": {
+        "min": 0.122713,
+        "median": 0.8835405000000001,
+        "p95": 2.6125543000000007,
+        "p99": 4.85109142,
+        "max": 11.746188
+      },
+      "position_min": [
+        -0.9794387817382812,
+        -1.2502861022949219,
+        -0.4358358383178711,
+        0.10013771057128906,
+        0.6353473663330078,
+        -0.20375708025351733,
+        -0.23435698854444317
+      ],
+      "position_max": [
+        0.9805831909179688,
+        -0.3103303909301758,
+        1.201838493347168,
+        1.803807258605957,
+        1.4185171127319336,
+        0.06543341062963094,
+        0.11406267518342907
+      ],
+      "effort_min": [
+        -5.2014617919921875,
+        -9.059829711914062,
+        -12.087913513183594,
+        -9.645912170410156,
+        -2.570941925048828,
+        -12.69530963897705,
+        -9.39940071105957
+      ],
+      "effort_max": [
+        10.427352905273438,
+        9.645912170410156,
+        5.6898651123046875,
+        8.131866455078125,
+        2.633455276489258,
+        17.333980560302734,
+        12.420658111572266
+      ],
+      "array_lengths": [
+        {
+          "name": 14,
+          "velocity": 14,
+          "effort": 14,
+          "messages": 2678
+        }
+      ]
+    },
+    "hand_state": {
+      "messages": 2677,
+      "receive_hz": 99.99680990745027,
+      "source_names": [
+        [
+          "right_thumb_0",
+          "right_thumb_1",
+          "right_index",
+          "right_middle",
+          "right_ring",
+          "right_pinky"
+        ]
+      ],
+      "first_receive_ns": 1792050497440703872,
+      "last_receive_ns": 1792050524201557568,
+      "header_nonpositive_count": 0,
+      "header_backwards_count": 0,
+      "duplicate_receive_count": 0,
+      "max_receive_gap_ms": 20.735424,
+      "receive_minus_header_ms": {
+        "min": 0.136212,
+        "median": 0.863048,
+        "p95": 2.634669799999996,
+        "p99": 4.846597559999983,
+        "max": 11.714608
+      },
+      "position_min": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "position_max": [
+        2014.0,
+        318.0,
+        2000.0,
+        388.0,
+        437.0,
+        1997.0
+      ],
+      "effort_min": [
+        2060.0,
+        -66.0,
+        -1765.0,
+        -147.0,
+        -296.0,
+        -1579.0
+      ],
+      "effort_max": [
+        24041.0,
+        17435.0,
+        4541.0,
+        13061.0,
+        13513.0,
+        11243.0
+      ],
+      "array_lengths": [
+        {
+          "name": 12,
+          "velocity": 0,
+          "effort": 12,
+          "messages": 2677
+        }
+      ]
+    },
+    "arm_command": {
+      "messages": 13202,
+      "receive_hz": 492.923353511314,
+      "source_names": [
+        [
+          "idx20_right_arm_joint1",
+          "idx21_right_arm_joint2",
+          "idx22_right_arm_joint3",
+          "idx23_right_arm_joint4",
+          "idx24_right_arm_joint5",
+          "idx25_right_arm_joint6",
+          "idx26_right_arm_joint7"
+        ]
+      ],
+      "first_receive_ns": 1792050497427705696,
+      "last_receive_ns": 1792050524208745600,
+      "header_nonpositive_count": 0,
+      "header_backwards_count": 0,
+      "duplicate_receive_count": 0,
+      "max_receive_gap_ms": 17.59952,
+      "receive_minus_header_ms": {
+        "min": 0.14233,
+        "median": 0.844131,
+        "p95": 2.214824099999996,
+        "p99": 5.164872349999999,
+        "max": 16.270033
+      },
+      "position_min": [
+        -0.9865422699180191,
+        -1.2516770588909196,
+        -0.4194910749734859,
+        0.09999999999918907,
+        0.6296099571234736,
+        -0.20000000000161494,
+        -0.2000000000015636
+      ],
+      "position_max": [
+        0.9820828289765253,
+        -0.3007518088509795,
+        1.203369927011444,
+        1.8087912767722574,
+        1.4189569442482146,
+        0.07276570722416914,
+        0.11726104698310896
+      ],
+      "effort_min": null,
+      "effort_max": null,
+      "array_lengths": [
+        {
+          "name": 14,
+          "velocity": 0,
+          "effort": 0,
+          "messages": 13202
+        }
+      ]
+    },
+    "hand_command": {
+      "messages": 13199,
+      "receive_hz": 492.9338159339697,
+      "source_names": [
+        [
+          "right_thumb_0",
+          "right_thumb_1",
+          "right_index",
+          "right_middle",
+          "right_ring",
+          "right_pinky"
+        ]
+      ],
+      "first_receive_ns": 1792050497434382944,
+      "last_receive_ns": 1792050524208768416,
+      "header_nonpositive_count": 0,
+      "header_backwards_count": 0,
+      "duplicate_receive_count": 0,
+      "max_receive_gap_ms": 17.625888,
+      "receive_minus_header_ms": {
+        "min": 0.145578,
+        "median": 0.801268,
+        "p95": 2.2109253999999963,
+        "p99": 5.203510680000014,
+        "max": 16.315917
+      },
+      "position_min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "position_max": [
+        1991.0,
+        1999.0,
+        1999.0,
+        1999.0,
+        1999.0,
+        1999.0
+      ],
+      "effort_min": [
+        13000.0,
+        8000.0,
+        8000.0,
+        8000.0,
+        8000.0,
+        8000.0
+      ],
+      "effort_max": [
+        13000.0,
+        8000.0,
+        8000.0,
+        8000.0,
+        8000.0,
+        8000.0
+      ],
+      "array_lengths": [
+        {
+          "name": 12,
+          "velocity": 0,
+          "effort": 12,
+          "messages": 13199
+        }
+      ]
+    }
+  },
+  "state_min": [
+    -0.9794387817382812,
+    -1.2502861022949219,
+    -0.4358358383178711,
+    0.10013771057128906,
+    0.6353473663330078,
+    -0.20375708025351733,
+    -0.23435698854444317,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "state_max": [
+    0.9805831909179688,
+    -0.3103303909301758,
+    1.201838493347168,
+    1.803807258605957,
+    1.4185171127319336,
+    0.06543341062963094,
+    0.11406267518342907,
+    2014.0,
+    318.0,
+    2000.0,
+    388.0,
+    437.0,
+    1997.0
+  ],
+  "action_min": [
+    -0.9865422699180191,
+    -1.2516770588909196,
+    -0.4194910749734859,
+    0.09999999999918907,
+    0.6296099571234736,
+    -0.20000000000161494,
+    -0.2000000000015636,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "action_max": [
+    0.9820828289765253,
+    -0.3007518088509795,
+    1.203369927011444,
+    1.8087912767722574,
+    1.4189569442482146,
+    0.07276570722416914,
+    0.11726104698310896,
+    1991.0,
+    1999.0,
+    1999.0,
+    1999.0,
+    1999.0,
+    1999.0
+  ],
+  "current_command_feedback_rmse": [
+    0.035832248628139496,
+    0.02171994559466839,
+    0.03316519036889076,
+    0.02720843255519867,
+    0.01572749763727188,
+    0.020296603441238403,
+    0.016189781948924065,
+    204.41554260253906,
+    1012.4034423828125,
+    237.18228149414062,
+    992.8471069335938,
+    953.8838500976562,
+    660.8572387695312
+  ],
+  "warnings": [
+    "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+  ],
+  "source_session_relpath": "right_159/20261015_154816_2535cc",
+  "head_video_relpath": "right_159/20261015_154816_2535cc/video/head.mp4"
+}

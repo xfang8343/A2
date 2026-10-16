@@ -1,0 +1,244 @@
+{
+  "format": "a2_right_aligned_v1",
+  "task_id": "right_plus_stack_cubes",
+  "state_dimension": 13,
+  "action_dimension": 13,
+  "channels": [
+    {
+      "index": 0,
+      "name": "right_arm_joint1",
+      "unit": "rad",
+      "state_range_observed": [
+        -1.2556266784667969,
+        2.379453659057617
+      ],
+      "action_range_observed": [
+        -1.2668241588425229,
+        2.380672279187427
+      ],
+      "action_constant_in_dataset": false
+    },
+    {
+      "index": 1,
+      "name": "right_arm_joint2",
+      "unit": "rad",
+      "state_range_observed": [
+        -1.536393165588379,
+        -0.01544952392578125
+      ],
+      "action_range_observed": [
+        -1.5358897000018996,
+        -0.0012485738427426732
+      ],
+      "action_constant_in_dataset": false
+    },
+    {
+      "index": 2,
+      "name": "right_arm_joint3",
+      "unit": "rad",
+      "state_range_observed": [
+        -0.9637975692749023,
+        2.8456172943115234
+      ],
+      "action_range_observed": [
+        -0.9691667901594777,
+        2.8464516628689167
+      ],
+      "action_constant_in_dataset": false
+    },
+    {
+      "index": 3,
+      "name": "right_arm_joint4",
+      "unit": "rad",
+      "state_range_observed": [
+        0.10013771057128906,
+        2.0075149536132812
+      ],
+      "action_range_observed": [
+        0.09999999999865629,
+        2.09400000000075
+      ],
+      "action_constant_in_dataset": false
+    },
+    {
+      "index": 4,
+      "name": "right_arm_joint5",
+      "unit": "rad",
+      "state_range_observed": [
+        -0.07763004302978516,
+        2.657168388366699
+      ],
+      "action_range_observed": [
+        -0.07967134837861878,
+        2.6599727002516045
+      ],
+      "action_constant_in_dataset": false
+    },
+    {
+      "index": 5,
+      "name": "right_arm_joint6",
+      "unit": "rad",
+      "state_range_observed": [
+        -0.23185826893439843,
+        0.2775141042711647
+      ],
+      "action_range_observed": [
+        -0.20000001724835811,
+        0.20000002370671202
+      ],
+      "action_constant_in_dataset": false
+    },
+    {
+      "index": 6,
+      "name": "right_arm_joint7",
+      "unit": "rad",
+      "state_range_observed": [
+        -0.23630431363266682,
+        0.38643804251631547
+      ],
+      "action_range_observed": [
+        -0.20000003248654794,
+        0.20000004709851027
+      ],
+      "action_constant_in_dataset": false
+    },
+    {
+      "index": 7,
+      "name": "right_thumb_0",
+      "unit": "hand_abstract_0_2000",
+      "state_range_observed": [
+        0.0,
+        2015.0
+      ],
+      "action_range_observed": [
+        1.0,
+        1991.0
+      ],
+      "action_constant_in_dataset": false
+    },
+    {
+      "index": 8,
+      "name": "right_thumb_1",
+      "unit": "hand_abstract_0_2000",
+      "state_range_observed": [
+        0.0,
+        1574.0
+      ],
+      "action_range_observed": [
+        1.0,
+        1999.0
+      ],
+      "action_constant_in_dataset": false
+    },
+    {
+      "index": 9,
+      "name": "right_index",
+      "unit": "hand_abstract_0_2000",
+      "state_range_observed": [
+        0.0,
+        2004.0
+      ],
+      "action_range_observed": [
+        1.0,
+        1999.0
+      ],
+      "action_constant_in_dataset": false
+    },
+    {
+      "index": 10,
+      "name": "right_middle",
+      "unit": "hand_abstract_0_2000",
+      "state_range_observed": [
+        0.0,
+        1992.0
+      ],
+      "action_range_observed": [
+        1.0,
+        1999.0
+      ],
+      "action_constant_in_dataset": false
+    },
+    {
+      "index": 11,
+      "name": "right_ring",
+      "unit": "hand_abstract_0_2000",
+      "state_range_observed": [
+        0.0,
+        2003.0
+      ],
+      "action_range_observed": [
+        1.0,
+        1999.0
+      ],
+      "action_constant_in_dataset": false
+    },
+    {
+      "index": 12,
+      "name": "right_pinky",
+      "unit": "hand_abstract_0_2000",
+      "state_range_observed": [
+        0.0,
+        1999.0
+      ],
+      "action_range_observed": [
+        1.0,
+        1999.0
+      ],
+      "action_constant_in_dataset": false
+    }
+  ],
+  "state_semantics": "measured joint positions; arm then six individual hand channels",
+  "action_semantics": "absolute position setpoints recorded from command topics, not feedback or deltas",
+  "wrist_semantics": "arm joints 6/7 are equivalent serial coordinates of a parallel wrist",
+  "hand_semantics": "SDK abstract positions, nominal 0=open and 2000=closed; actual topic names used; no mean-gripper reduction",
+  "normalization": "not fitted: fit on training episodes only after train/validation/test split; guard constant dimensions",
+  "effort": "command effort is preserved as auxiliary arrays when present, not part of the 13-D action; audit before deployment",
+  "hand_command_effort_observed": {
+    "min": [
+      13000.0,
+      8000.0,
+      8000.0,
+      8000.0,
+      8000.0,
+      8000.0
+    ],
+    "max": [
+      13000.0,
+      8000.0,
+      8000.0,
+      8000.0,
+      8000.0,
+      8000.0
+    ],
+    "constant_across_dataset": true,
+    "sdk_nominal_range": [
+      0,
+      5700
+    ],
+    "deployment_note": "Actual values may use firmware-specific conventions. Do not convert, clip, or blindly send them based on this offline schema."
+  },
+  "range_warning": "observed ranges are not hardware or deployment safety limits; no clipping applied",
+  "image": {
+    "storage": "original head.mp4 + selected frame index",
+    "decode_color": "RGB (OpenCV gives BGR; convert during future image extraction)",
+    "resize_or_crop": "not applied in steps 3/4"
+  },
+  "alignment": {
+    "hz": 10,
+    "clock": "ORIN Unix receipt clock: bag timestamp for joints, receive_unix_ns CSV for video",
+    "selection": "latest received value <= decision time for every component (zero-order hold)",
+    "source_timestamps": "retained separately for latency/clock diagnostics; no assumed constant 81ms correction",
+    "interval": "common coverage of all five streams; no semantic trimming or padding",
+    "max_joint_receive_age_ms": 50,
+    "max_camera_receive_age_ms": 200,
+    "stale_samples": "retained with valid_sample=False; future temporal windows must not cross them",
+    "integer_nanoseconds": true
+  },
+  "sources": {
+    "arm_state": "/motion/control/arm_joint_state",
+    "hand_state": "/motion/control/hand_joint_state",
+    "arm_command": "/motion/control/arm_joint_command",
+    "hand_command": "/motion/control/hand_joint_command",
+    "sdk": "https://open.agibot.com/docs/aimdk/a2/v1_3/dev_guide/07-01-motion_control"
+  }
+}

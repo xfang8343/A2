@@ -1,0 +1,25 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8">
+<title>right+ 数据对齐检查</title><style>
+body{font:16px system-ui,sans-serif;margin:24px auto;padding:0 20px;max-width:1100px;color:#203045;background:#f5f7fa}
+h1{font-size:25px}select,button{font:inherit;padding:6px;margin:4px}video{width:100%;max-height:470px;background:#111;border-radius:10px}
+canvas{width:100%;height:270px;background:white;border:1px solid #ddd;border-radius:10px;cursor:crosshair}
+.box{background:white;padding:16px;border-radius:12px;margin:16px 0}.legend{color:#2166bc}.warn{color:#94511b;white-space:pre-wrap}#value{font-variant-numeric:tabular-nums}
+</style><h1>right+：视频、右侧关节反馈与命令</h1>
+<p>已对齐的真实数据预览。蓝线＝位置反馈，橙线＝目标命令。选择关节后点击曲线可跳转视频；曲线只供检查，不是模型预测。</p>
+<div class="box"><label>示教 <select id="episode"></select></label><label>通道 <select id="joint"></select></label><p id="status"></p><video id="video" controls preload="metadata"></video></div>
+<div class="box"><p id="value"></p><canvas id="plot"></canvas><p>横轴为所选图像的 MP4 播放秒数；原始接收时间和拍摄时间保存在 NPZ。图像的接收延迟已保留，不能把播放器秒数直接当成决策时钟。</p><p class="warn" id="warn"></p></div>
+<script src="preview_data.js"></script><script>
+const data=window.A2_PREVIEW,es=document.getElementById('episode'),js=document.getElementById('joint'),v=document.getElementById('video'),c=document.getElementById('plot'),ctx=c.getContext('2d');
+data.episodes.forEach((e,i)=>es.add(new Option(e.id,i)));data.channels.forEach((n,i)=>js.add(new Option(`${i}: ${n}`,i)));
+let current=data.episodes[0],bounds={};
+function draw(){if(!current)return;const j=+js.value,W=c.width=1000,H=c.height=270,p=55,ts=current.video_t;let lo=Infinity,hi=-Infinity;
+for(let k=0;k<ts.length;k++){lo=Math.min(lo,current.state[k][j],current.action[k][j]);hi=Math.max(hi,current.state[k][j],current.action[k][j]);}
+let margin=Math.max((hi-lo)*.12,j<7?.03:10);lo-=margin;hi+=margin;const end=Math.max(ts[ts.length-1],.1);bounds={end,p,W,H};
+const x=t=>p+t/end*(W-2*p),y=a=>H-p-(a-lo)/(hi-lo)*(H-2*p);ctx.clearRect(0,0,W,H);ctx.font='13px sans-serif';ctx.strokeStyle='#dae0e6';ctx.fillStyle='#526070';
+for(let i=0;i<=4;i++){const yy=p+i*(H-2*p)/4;ctx.beginPath();ctx.moveTo(p,yy);ctx.lineTo(W-p,yy);ctx.stroke();ctx.fillText((hi-i*(hi-lo)/4).toFixed(j<7?2:0),3,yy+4);ctx.fillText((i*end/4).toFixed(1)+'s',x(i*end/4)-8,H-12);}
+for(const [field,color]of[['state','#2166bc'],['action','#df7b20']]){ctx.strokeStyle=color;ctx.lineWidth=2;ctx.beginPath();ts.forEach((t,k)=>{if(k===0)ctx.moveTo(x(t),y(current[field][k][j]));else ctx.lineTo(x(t),y(current[field][k][j]));});ctx.stroke();}
+ctx.strokeStyle='#263343';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(x(v.currentTime),p);ctx.lineTo(x(v.currentTime),H-p);ctx.stroke();
+let k=0;while(k+1<ts.length&&ts[k+1]<=v.currentTime)k++;document.getElementById('value').textContent=`${data.channels[j]}：反馈 ${current.state[k][j].toFixed(4)}；命令 ${current.action[k][j].toFixed(4)}；${j<7?'rad':'手指抽象位置'}；该预览采样点 ${current.valid[k]?'新鲜度合格':'含陈旧数据标记'}`;}
+function choose(){current=data.episodes[+es.value];v.src=current.video;document.getElementById('status').textContent=current.id;document.getElementById('warn').textContent=current.warnings.join('\n');draw();}
+es.onchange=choose;js.onchange=draw;v.ontimeupdate=draw;v.onloadedmetadata=draw;c.onclick=e=>{const r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width*bounds.W;v.currentTime=Math.max(0,Math.min(bounds.end,(x-bounds.p)/(bounds.W-2*bounds.p)*bounds.end));draw();};choose();
+</script></html>

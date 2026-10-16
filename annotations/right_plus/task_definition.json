@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "task_id": "right_plus_stack_cubes",
+  "task_name_zh": "右臂三层方块堆叠并归位",
+  "declared_date_local": "2026-10-16",
+  "source": "user_description_and_user_confirmation_of_success",
+  "data_root_relative": "data/right/right+",
+  "distinct_task_directory": "data/right/right-",
+  "initial_conditions": {
+    "right_arm_pose": "示教中的初始默认姿态；具体关节值及容差待数据检查后确定",
+    "objects": [
+      {
+        "id": "large_cube",
+        "size": "large"
+      },
+      {
+        "id": "medium_cube",
+        "size": "medium"
+      },
+      {
+        "id": "small_cube",
+        "size": "small"
+      }
+    ],
+    "layout_left_to_right": [
+      "large_cube",
+      "small_cube",
+      "medium_cube"
+    ],
+    "layout_reference_frame": "left/right viewpoint not yet specified by user",
+    "cube_dimensions_mm": null,
+    "head_and_torso_pose": "需与示教和部署条件一致，具体设置待核对"
+  },
+  "observation": {
+    "rgb": [
+      "head"
+    ],
+    "joint_feedback": [
+      "right_arm_7",
+      "right_hand_6"
+    ],
+    "dimensions": 13,
+    "channel_order": [
+      "right_arm_joint1",
+      "right_arm_joint2",
+      "right_arm_joint3",
+      "right_arm_joint4",
+      "right_arm_joint5",
+      "right_arm_joint6",
+      "right_arm_joint7",
+      "right_thumb_0",
+      "right_thumb_1",
+      "right_index",
+      "right_middle",
+      "right_ring",
+      "right_pinky"
+    ]
+  },
+  "action": {
+    "representation": "absolute right arm and six-channel hand position setpoints from command topics",
+    "dimensions": 13,
+    "channel_order": [
+      "right_arm_joint1",
+      "right_arm_joint2",
+      "right_arm_joint3",
+      "right_arm_joint4",
+      "right_arm_joint5",
+      "right_arm_joint6",
+      "right_arm_joint7",
+      "right_thumb_0",
+      "right_thumb_1",
+      "right_index",
+      "right_middle",
+      "right_ring",
+      "right_pinky"
+    ],
+    "units": [
+      "rad",
+      "rad",
+      "rad",
+      "rad",
+      "rad",
+      "rad",
+      "rad",
+      "hand_abstract_0_2000",
+      "hand_abstract_0_2000",
+      "hand_abstract_0_2000",
+      "hand_abstract_0_2000",
+      "hand_abstract_0_2000",
+      "hand_abstract_0_2000"
+    ]
+  },
+  "ordered_behavior": [
+    "右臂从初始默认位置出发，抓取初始位于右侧的中正方体。",
+    "将中正方体放到初始位于左侧的大正方体上并松手。",
+    "抓取初始位于中间的小正方体。",
+    "将小正方体放到已堆叠的中正方体上并松手。",
+    "右臂回到初始默认位置。"
+  ],
+  "success_conditions": [
+    "形成由下到上为大、中、小的三层堆叠。",
+    "右手已经松开方块，方块不依靠手部支撑。",
+    "三个方块正确摆放，不掉落。",
+    "机器人右臂已经回到初始默认位置。"
+  ],
+  "stability_duration_required_seconds": null,
+  "suggested_future_evaluation_stability_seconds": 2.0,
+  "suggested_duration_is_not_verified_for_existing_demonstrations": true,
+  "episode_boundaries": {
+    "start": "物体已摆好、右臂处于任务初始姿态，第一次朝中方块运动之前；保留少量初始静止上下文。",
+    "end": "小方块放好且已松手、右臂回到默认位置后；保留少量末尾稳定观察。",
+    "include_return_to_default_pose": true,
+    "exclude": "录制前准备、长时间空等、完成后人工重新摆放方块，以及下一次任务动作。",
+    "time_annotation_reference": "head MP4 playback seconds; converter must map through frame_index and timestamp CSV, not equate playback seconds with ROS wall time",
+    "selection_policy": "full_recorded_episode_user_confirmed_no_semantic_trimming"
+  },
+  "annotation_status": {
+    "episode_outcome": "success",
+    "outcome_source": "user_confirmation",
+    "video_boundary_review": "user_confirmed_full_episode",
+    "independent_visual_success_review": "not_performed",
+    "phase_or_bounding_box_annotations_required_for_baseline": false,
+    "user_confirmed_quality": "all successful, no mistakes or occlusion, head view covers key actions",
+    "include_in_training": "yes"
+  },
+  "alignment": {
+    "frequency_hz": 10,
+    "time_basis": "ORIN receipt Unix timestamps",
+    "selection": "latest received value at or before decision time",
+    "schema_relpath": "processed/right_plus_step34/joint_schema.json"
+  },
+  "processing_status": {
+    "steps_3_and_4": "completed",
+    "episodes": 106,
+    "aligned_rows": 40097,
+    "fresh_rows": 40076,
+    "stale_marked_rows": 21
+  }
+}

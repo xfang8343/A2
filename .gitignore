@@ -1,0 +1,18 @@
+# Local settings and credentials
+/.agents/
+/.aws/
+/.codex/
+.env
+.env.*
+!.env.example
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Raw recordings and download/upload staging (stored in GitHub Releases)
+/data/
+/.release-assets/
+/.download-assets/
+/AimDK-A2-Ultra-V1.3-0130.zip

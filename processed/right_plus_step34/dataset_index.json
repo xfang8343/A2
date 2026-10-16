@@ -1,0 +1,1304 @@
+{
+  "created_utc": "2026-10-16T01:52:09.271759+00:00",
+  "format": "a2_right_aligned_v1",
+  "source_root": "/home/fx/A2/data/right/right+",
+  "task_id": "right_plus_stack_cubes",
+  "episode_count": 106,
+  "aligned_samples": 40097,
+  "valid_samples": 40076,
+  "invalid_samples": 21,
+  "head_frames": 60117,
+  "alignment_hz": 10,
+  "episodes": [
+    {
+      "episode_id": "right_001/20261008_110841_e6b694",
+      "data_file": "episodes/right_001__20261008_110841_e6b694.npz",
+      "aligned_samples": 524,
+      "valid_samples": 524,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_001/20261008_110841_e6b694/video/head.mp4",
+      "head_video_relpath": "right_001/20261008_110841_e6b694/video/head.mp4",
+      "warnings": []
+    },
+    {
+      "episode_id": "right_002/20261008_152628_bae9b3",
+      "data_file": "episodes/right_002__20261008_152628_bae9b3.npz",
+      "aligned_samples": 515,
+      "valid_samples": 515,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_002/20261008_152628_bae9b3/video/head.mp4",
+      "head_video_relpath": "right_002/20261008_152628_bae9b3/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped",
+        "Video starts 0.597 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_003/20261008_152821_877267",
+      "data_file": "episodes/right_003__20261008_152821_877267.npz",
+      "aligned_samples": 504,
+      "valid_samples": 504,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_003/20261008_152821_877267/video/head.mp4",
+      "head_video_relpath": "right_003/20261008_152821_877267/video/head.mp4",
+      "warnings": [
+        "Video starts 0.310 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_004/20261008_152941_14293b",
+      "data_file": "episodes/right_004__20261008_152941_14293b.npz",
+      "aligned_samples": 465,
+      "valid_samples": 465,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_004/20261008_152941_14293b/video/head.mp4",
+      "head_video_relpath": "right_004/20261008_152941_14293b/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_005/20261008_153051_7076de",
+      "data_file": "episodes/right_005__20261008_153051_7076de.npz",
+      "aligned_samples": 476,
+      "valid_samples": 476,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_005/20261008_153051_7076de/video/head.mp4",
+      "head_video_relpath": "right_005/20261008_153051_7076de/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_006/20261008_153204_f7a2fc",
+      "data_file": "episodes/right_006__20261008_153204_f7a2fc.npz",
+      "aligned_samples": 559,
+      "valid_samples": 559,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_006/20261008_153204_f7a2fc/video/head.mp4",
+      "head_video_relpath": "right_006/20261008_153204_f7a2fc/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped",
+        "Video starts 0.822 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_007/20261008_153318_36206b",
+      "data_file": "episodes/right_007__20261008_153318_36206b.npz",
+      "aligned_samples": 472,
+      "valid_samples": 472,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_007/20261008_153318_36206b/video/head.mp4",
+      "head_video_relpath": "right_007/20261008_153318_36206b/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_008/20261008_153424_361f64",
+      "data_file": "episodes/right_008__20261008_153424_361f64.npz",
+      "aligned_samples": 454,
+      "valid_samples": 454,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_008/20261008_153424_361f64/video/head.mp4",
+      "head_video_relpath": "right_008/20261008_153424_361f64/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped",
+        "Video starts 0.966 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_009/20261008_153530_deb275",
+      "data_file": "episodes/right_009__20261008_153530_deb275.npz",
+      "aligned_samples": 490,
+      "valid_samples": 490,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_009/20261008_153530_deb275/video/head.mp4",
+      "head_video_relpath": "right_009/20261008_153530_deb275/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_010/20261008_153635_6978c9",
+      "data_file": "episodes/right_010__20261008_153635_6978c9.npz",
+      "aligned_samples": 395,
+      "valid_samples": 395,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_010/20261008_153635_6978c9/video/head.mp4",
+      "head_video_relpath": "right_010/20261008_153635_6978c9/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_011/20261009_141610_1c5983",
+      "data_file": "episodes/right_011__20261009_141610_1c5983.npz",
+      "aligned_samples": 441,
+      "valid_samples": 439,
+      "invalid_samples": 2,
+      "head_video": "/home/fx/A2/data/right/right+/right_011/20261009_141610_1c5983/video/head.mp4",
+      "head_video_relpath": "right_011/20261009_141610_1c5983/video/head.mp4",
+      "warnings": [
+        "2 aligned rows have stale data; valid_sample mask must be used by future sequence sampler",
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_012/20261009_141803_2f1877",
+      "data_file": "episodes/right_012__20261009_141803_2f1877.npz",
+      "aligned_samples": 330,
+      "valid_samples": 330,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_012/20261009_141803_2f1877/video/head.mp4",
+      "head_video_relpath": "right_012/20261009_141803_2f1877/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_013/20261009_141942_4f0db4",
+      "data_file": "episodes/right_013__20261009_141942_4f0db4.npz",
+      "aligned_samples": 416,
+      "valid_samples": 416,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_013/20261009_141942_4f0db4/video/head.mp4",
+      "head_video_relpath": "right_013/20261009_141942_4f0db4/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_014/20261009_142129_90c293",
+      "data_file": "episodes/right_014__20261009_142129_90c293.npz",
+      "aligned_samples": 415,
+      "valid_samples": 415,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_014/20261009_142129_90c293/video/head.mp4",
+      "head_video_relpath": "right_014/20261009_142129_90c293/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_015/20261009_142328_c16109",
+      "data_file": "episodes/right_015__20261009_142328_c16109.npz",
+      "aligned_samples": 367,
+      "valid_samples": 366,
+      "invalid_samples": 1,
+      "head_video": "/home/fx/A2/data/right/right+/right_015/20261009_142328_c16109/video/head.mp4",
+      "head_video_relpath": "right_015/20261009_142328_c16109/video/head.mp4",
+      "warnings": [
+        "Camera source frame gap 201.6 ms; all original frames retained",
+        "1 aligned rows have stale data; valid_sample mask must be used by future sequence sampler",
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_016/20261009_144448_71de38",
+      "data_file": "episodes/right_016__20261009_144448_71de38.npz",
+      "aligned_samples": 456,
+      "valid_samples": 456,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_016/20261009_144448_71de38/video/head.mp4",
+      "head_video_relpath": "right_016/20261009_144448_71de38/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_017/20261009_144633_aa4372",
+      "data_file": "episodes/right_017__20261009_144633_aa4372.npz",
+      "aligned_samples": 439,
+      "valid_samples": 439,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_017/20261009_144633_aa4372/video/head.mp4",
+      "head_video_relpath": "right_017/20261009_144633_aa4372/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_018/20261009_144825_b12307",
+      "data_file": "episodes/right_018__20261009_144825_b12307.npz",
+      "aligned_samples": 383,
+      "valid_samples": 383,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_018/20261009_144825_b12307/video/head.mp4",
+      "head_video_relpath": "right_018/20261009_144825_b12307/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_019/20261009_145002_b5e57d",
+      "data_file": "episodes/right_019__20261009_145002_b5e57d.npz",
+      "aligned_samples": 387,
+      "valid_samples": 387,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_019/20261009_145002_b5e57d/video/head.mp4",
+      "head_video_relpath": "right_019/20261009_145002_b5e57d/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_020/20261009_145140_408157",
+      "data_file": "episodes/right_020__20261009_145140_408157.npz",
+      "aligned_samples": 471,
+      "valid_samples": 471,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_020/20261009_145140_408157/video/head.mp4",
+      "head_video_relpath": "right_020/20261009_145140_408157/video/head.mp4",
+      "warnings": []
+    },
+    {
+      "episode_id": "right_021/20261012_101357_6bb916",
+      "data_file": "episodes/right_021__20261012_101357_6bb916.npz",
+      "aligned_samples": 337,
+      "valid_samples": 337,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_021/20261012_101357_6bb916/video/head.mp4",
+      "head_video_relpath": "right_021/20261012_101357_6bb916/video/head.mp4",
+      "warnings": []
+    },
+    {
+      "episode_id": "right_022/20261012_093521_9f0f48",
+      "data_file": "episodes/right_022__20261012_093521_9f0f48.npz",
+      "aligned_samples": 296,
+      "valid_samples": 296,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_022/20261012_093521_9f0f48/video/head.mp4",
+      "head_video_relpath": "right_022/20261012_093521_9f0f48/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped",
+        "Video starts 0.826 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_023/20261012_093755_f543b8",
+      "data_file": "episodes/right_023__20261012_093755_f543b8.npz",
+      "aligned_samples": 344,
+      "valid_samples": 344,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_023/20261012_093755_f543b8/video/head.mp4",
+      "head_video_relpath": "right_023/20261012_093755_f543b8/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_024/20261012_093945_053200",
+      "data_file": "episodes/right_024__20261012_093945_053200.npz",
+      "aligned_samples": 355,
+      "valid_samples": 355,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_024/20261012_093945_053200/video/head.mp4",
+      "head_video_relpath": "right_024/20261012_093945_053200/video/head.mp4",
+      "warnings": []
+    },
+    {
+      "episode_id": "right_025/20261012_094115_7ff8fd",
+      "data_file": "episodes/right_025__20261012_094115_7ff8fd.npz",
+      "aligned_samples": 361,
+      "valid_samples": 361,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_025/20261012_094115_7ff8fd/video/head.mp4",
+      "head_video_relpath": "right_025/20261012_094115_7ff8fd/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_026/20261012_094245_c429a7",
+      "data_file": "episodes/right_026__20261012_094245_c429a7.npz",
+      "aligned_samples": 381,
+      "valid_samples": 381,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_026/20261012_094245_c429a7/video/head.mp4",
+      "head_video_relpath": "right_026/20261012_094245_c429a7/video/head.mp4",
+      "warnings": []
+    },
+    {
+      "episode_id": "right_027/20261012_101706_33f729",
+      "data_file": "episodes/right_027__20261012_101706_33f729.npz",
+      "aligned_samples": 448,
+      "valid_samples": 448,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_027/20261012_101706_33f729/video/head.mp4",
+      "head_video_relpath": "right_027/20261012_101706_33f729/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_028/20261012_101847_b4ec81",
+      "data_file": "episodes/right_028__20261012_101847_b4ec81.npz",
+      "aligned_samples": 365,
+      "valid_samples": 365,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_028/20261012_101847_b4ec81/video/head.mp4",
+      "head_video_relpath": "right_028/20261012_101847_b4ec81/video/head.mp4",
+      "warnings": [
+        "Video starts 0.910 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_029/20261012_102304_8c53f6",
+      "data_file": "episodes/right_029__20261012_102304_8c53f6.npz",
+      "aligned_samples": 515,
+      "valid_samples": 515,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_029/20261012_102304_8c53f6/video/head.mp4",
+      "head_video_relpath": "right_029/20261012_102304_8c53f6/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_030/20261012_102521_4ac259",
+      "data_file": "episodes/right_030__20261012_102521_4ac259.npz",
+      "aligned_samples": 393,
+      "valid_samples": 393,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_030/20261012_102521_4ac259/video/head.mp4",
+      "head_video_relpath": "right_030/20261012_102521_4ac259/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_031/20261012_103655_8bfc31",
+      "data_file": "episodes/right_031__20261012_103655_8bfc31.npz",
+      "aligned_samples": 364,
+      "valid_samples": 364,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_031/20261012_103655_8bfc31/video/head.mp4",
+      "head_video_relpath": "right_031/20261012_103655_8bfc31/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_032/20261012_103833_90f7c6",
+      "data_file": "episodes/right_032__20261012_103833_90f7c6.npz",
+      "aligned_samples": 411,
+      "valid_samples": 411,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_032/20261012_103833_90f7c6/video/head.mp4",
+      "head_video_relpath": "right_032/20261012_103833_90f7c6/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_033/20261012_104408_3a0b84",
+      "data_file": "episodes/right_033__20261012_104408_3a0b84.npz",
+      "aligned_samples": 511,
+      "valid_samples": 511,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_033/20261012_104408_3a0b84/video/head.mp4",
+      "head_video_relpath": "right_033/20261012_104408_3a0b84/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_034/20261012_104642_631e1e",
+      "data_file": "episodes/right_034__20261012_104642_631e1e.npz",
+      "aligned_samples": 417,
+      "valid_samples": 417,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_034/20261012_104642_631e1e/video/head.mp4",
+      "head_video_relpath": "right_034/20261012_104642_631e1e/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_035/20261012_104944_9d004b",
+      "data_file": "episodes/right_035__20261012_104944_9d004b.npz",
+      "aligned_samples": 418,
+      "valid_samples": 418,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_035/20261012_104944_9d004b/video/head.mp4",
+      "head_video_relpath": "right_035/20261012_104944_9d004b/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped",
+        "Video starts 0.619 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_036/20261013_140213_2ebea7",
+      "data_file": "episodes/right_036__20261013_140213_2ebea7.npz",
+      "aligned_samples": 476,
+      "valid_samples": 476,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_036/20261013_140213_2ebea7/video/head.mp4",
+      "head_video_relpath": "right_036/20261013_140213_2ebea7/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_037/20261013_140552_d26de4",
+      "data_file": "episodes/right_037__20261013_140552_d26de4.npz",
+      "aligned_samples": 371,
+      "valid_samples": 371,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_037/20261013_140552_d26de4/video/head.mp4",
+      "head_video_relpath": "right_037/20261013_140552_d26de4/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_038/20261013_140733_3b5efa",
+      "data_file": "episodes/right_038__20261013_140733_3b5efa.npz",
+      "aligned_samples": 407,
+      "valid_samples": 407,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_038/20261013_140733_3b5efa/video/head.mp4",
+      "head_video_relpath": "right_038/20261013_140733_3b5efa/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_039/20261013_140922_5d7b21",
+      "data_file": "episodes/right_039__20261013_140922_5d7b21.npz",
+      "aligned_samples": 476,
+      "valid_samples": 476,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_039/20261013_140922_5d7b21/video/head.mp4",
+      "head_video_relpath": "right_039/20261013_140922_5d7b21/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_040/20261013_141114_5de877",
+      "data_file": "episodes/right_040__20261013_141114_5de877.npz",
+      "aligned_samples": 425,
+      "valid_samples": 425,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_040/20261013_141114_5de877/video/head.mp4",
+      "head_video_relpath": "right_040/20261013_141114_5de877/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_041/20261013_141257_41adfb",
+      "data_file": "episodes/right_041__20261013_141257_41adfb.npz",
+      "aligned_samples": 389,
+      "valid_samples": 389,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_041/20261013_141257_41adfb/video/head.mp4",
+      "head_video_relpath": "right_041/20261013_141257_41adfb/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_042/20261013_141433_67addd",
+      "data_file": "episodes/right_042__20261013_141433_67addd.npz",
+      "aligned_samples": 343,
+      "valid_samples": 343,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_042/20261013_141433_67addd/video/head.mp4",
+      "head_video_relpath": "right_042/20261013_141433_67addd/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_043/20261013_141618_8b5013",
+      "data_file": "episodes/right_043__20261013_141618_8b5013.npz",
+      "aligned_samples": 334,
+      "valid_samples": 334,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_043/20261013_141618_8b5013/video/head.mp4",
+      "head_video_relpath": "right_043/20261013_141618_8b5013/video/head.mp4",
+      "warnings": []
+    },
+    {
+      "episode_id": "right_044/20261013_141752_d99d1f",
+      "data_file": "episodes/right_044__20261013_141752_d99d1f.npz",
+      "aligned_samples": 422,
+      "valid_samples": 422,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_044/20261013_141752_d99d1f/video/head.mp4",
+      "head_video_relpath": "right_044/20261013_141752_d99d1f/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_045/20261013_141931_37600f",
+      "data_file": "episodes/right_045__20261013_141931_37600f.npz",
+      "aligned_samples": 423,
+      "valid_samples": 423,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_045/20261013_141931_37600f/video/head.mp4",
+      "head_video_relpath": "right_045/20261013_141931_37600f/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_046/20261013_142116_6b5b55",
+      "data_file": "episodes/right_046__20261013_142116_6b5b55.npz",
+      "aligned_samples": 394,
+      "valid_samples": 394,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_046/20261013_142116_6b5b55/video/head.mp4",
+      "head_video_relpath": "right_046/20261013_142116_6b5b55/video/head.mp4",
+      "warnings": []
+    },
+    {
+      "episode_id": "right_047/20261013_144328_eab337",
+      "data_file": "episodes/right_047__20261013_144328_eab337.npz",
+      "aligned_samples": 353,
+      "valid_samples": 353,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_047/20261013_144328_eab337/video/head.mp4",
+      "head_video_relpath": "right_047/20261013_144328_eab337/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_048/20261013_144457_40e5e3",
+      "data_file": "episodes/right_048__20261013_144457_40e5e3.npz",
+      "aligned_samples": 340,
+      "valid_samples": 340,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_048/20261013_144457_40e5e3/video/head.mp4",
+      "head_video_relpath": "right_048/20261013_144457_40e5e3/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_049/20261013_144624_84f92c",
+      "data_file": "episodes/right_049__20261013_144624_84f92c.npz",
+      "aligned_samples": 409,
+      "valid_samples": 409,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_049/20261013_144624_84f92c/video/head.mp4",
+      "head_video_relpath": "right_049/20261013_144624_84f92c/video/head.mp4",
+      "warnings": []
+    },
+    {
+      "episode_id": "right_050/20261013_144802_3b8d7f",
+      "data_file": "episodes/right_050__20261013_144802_3b8d7f.npz",
+      "aligned_samples": 332,
+      "valid_samples": 328,
+      "invalid_samples": 4,
+      "head_video": "/home/fx/A2/data/right/right+/right_050/20261013_144802_3b8d7f/video/head.mp4",
+      "head_video_relpath": "right_050/20261013_144802_3b8d7f/video/head.mp4",
+      "warnings": [
+        "4 aligned rows have stale data; valid_sample mask must be used by future sequence sampler",
+        "Video starts 0.673 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_051/20261013_144925_45b720",
+      "data_file": "episodes/right_051__20261013_144925_45b720.npz",
+      "aligned_samples": 339,
+      "valid_samples": 339,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_051/20261013_144925_45b720/video/head.mp4",
+      "head_video_relpath": "right_051/20261013_144925_45b720/video/head.mp4",
+      "warnings": []
+    },
+    {
+      "episode_id": "right_052/20261013_145054_5f9514",
+      "data_file": "episodes/right_052__20261013_145054_5f9514.npz",
+      "aligned_samples": 335,
+      "valid_samples": 335,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_052/20261013_145054_5f9514/video/head.mp4",
+      "head_video_relpath": "right_052/20261013_145054_5f9514/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_053/20261013_145221_0d19f0",
+      "data_file": "episodes/right_053__20261013_145221_0d19f0.npz",
+      "aligned_samples": 418,
+      "valid_samples": 418,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_053/20261013_145221_0d19f0/video/head.mp4",
+      "head_video_relpath": "right_053/20261013_145221_0d19f0/video/head.mp4",
+      "warnings": [
+        "Video starts 0.933 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_054/20261013_145353_d1ac97",
+      "data_file": "episodes/right_054__20261013_145353_d1ac97.npz",
+      "aligned_samples": 354,
+      "valid_samples": 354,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_054/20261013_145353_d1ac97/video/head.mp4",
+      "head_video_relpath": "right_054/20261013_145353_d1ac97/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_055/20261013_145515_9fad33",
+      "data_file": "episodes/right_055__20261013_145515_9fad33.npz",
+      "aligned_samples": 322,
+      "valid_samples": 322,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_055/20261013_145515_9fad33/video/head.mp4",
+      "head_video_relpath": "right_055/20261013_145515_9fad33/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped",
+        "Video starts 0.619 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_056/20261013_145641_4b5ade",
+      "data_file": "episodes/right_056__20261013_145641_4b5ade.npz",
+      "aligned_samples": 372,
+      "valid_samples": 372,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_056/20261013_145641_4b5ade/video/head.mp4",
+      "head_video_relpath": "right_056/20261013_145641_4b5ade/video/head.mp4",
+      "warnings": []
+    },
+    {
+      "episode_id": "right_057/20261013_151138_5e3928",
+      "data_file": "episodes/right_057__20261013_151138_5e3928.npz",
+      "aligned_samples": 320,
+      "valid_samples": 320,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_057/20261013_151138_5e3928/video/head.mp4",
+      "head_video_relpath": "right_057/20261013_151138_5e3928/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped",
+        "Video starts 0.427 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_058/20261013_151308_563973",
+      "data_file": "episodes/right_058__20261013_151308_563973.npz",
+      "aligned_samples": 392,
+      "valid_samples": 392,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_058/20261013_151308_563973/video/head.mp4",
+      "head_video_relpath": "right_058/20261013_151308_563973/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_059/20261013_151448_7e0dd3",
+      "data_file": "episodes/right_059__20261013_151448_7e0dd3.npz",
+      "aligned_samples": 386,
+      "valid_samples": 386,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_059/20261013_151448_7e0dd3/video/head.mp4",
+      "head_video_relpath": "right_059/20261013_151448_7e0dd3/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_060/20261013_151633_d107ae",
+      "data_file": "episodes/right_060__20261013_151633_d107ae.npz",
+      "aligned_samples": 348,
+      "valid_samples": 348,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_060/20261013_151633_d107ae/video/head.mp4",
+      "head_video_relpath": "right_060/20261013_151633_d107ae/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_061/20261013_151759_609ebf",
+      "data_file": "episodes/right_061__20261013_151759_609ebf.npz",
+      "aligned_samples": 371,
+      "valid_samples": 371,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_061/20261013_151759_609ebf/video/head.mp4",
+      "head_video_relpath": "right_061/20261013_151759_609ebf/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped",
+        "Video starts 0.502 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_062/20261013_151930_ee4ef1",
+      "data_file": "episodes/right_062__20261013_151930_ee4ef1.npz",
+      "aligned_samples": 337,
+      "valid_samples": 337,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_062/20261013_151930_ee4ef1/video/head.mp4",
+      "head_video_relpath": "right_062/20261013_151930_ee4ef1/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped",
+        "Video starts 0.718 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_063/20261013_152058_85712e",
+      "data_file": "episodes/right_063__20261013_152058_85712e.npz",
+      "aligned_samples": 360,
+      "valid_samples": 359,
+      "invalid_samples": 1,
+      "head_video": "/home/fx/A2/data/right/right+/right_063/20261013_152058_85712e/video/head.mp4",
+      "head_video_relpath": "right_063/20261013_152058_85712e/video/head.mp4",
+      "warnings": [
+        "Camera source frame gap 268.9 ms; all original frames retained",
+        "1 aligned rows have stale data; valid_sample mask must be used by future sequence sampler",
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_064/20261013_152223_5485f2",
+      "data_file": "episodes/right_064__20261013_152223_5485f2.npz",
+      "aligned_samples": 336,
+      "valid_samples": 336,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_064/20261013_152223_5485f2/video/head.mp4",
+      "head_video_relpath": "right_064/20261013_152223_5485f2/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped",
+        "Video starts 0.629 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_065/20261013_152347_18071e",
+      "data_file": "episodes/right_065__20261013_152347_18071e.npz",
+      "aligned_samples": 299,
+      "valid_samples": 299,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_065/20261013_152347_18071e/video/head.mp4",
+      "head_video_relpath": "right_065/20261013_152347_18071e/video/head.mp4",
+      "warnings": [
+        "Video starts 0.470 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_066/20261013_152514_a35cc1",
+      "data_file": "episodes/right_066__20261013_152514_a35cc1.npz",
+      "aligned_samples": 492,
+      "valid_samples": 492,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_066/20261013_152514_a35cc1/video/head.mp4",
+      "head_video_relpath": "right_066/20261013_152514_a35cc1/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_067/20261013_152748_820628",
+      "data_file": "episodes/right_067__20261013_152748_820628.npz",
+      "aligned_samples": 325,
+      "valid_samples": 325,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_067/20261013_152748_820628/video/head.mp4",
+      "head_video_relpath": "right_067/20261013_152748_820628/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped",
+        "Video starts 0.905 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_068/20261013_152918_f7e48e",
+      "data_file": "episodes/right_068__20261013_152918_f7e48e.npz",
+      "aligned_samples": 468,
+      "valid_samples": 468,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_068/20261013_152918_f7e48e/video/head.mp4",
+      "head_video_relpath": "right_068/20261013_152918_f7e48e/video/head.mp4",
+      "warnings": [
+        "Camera source stamps repeat=1, backwards=0; original frame and receipt order retained",
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped",
+        "Video starts 1.023 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_069/20261014_101309_11203d",
+      "data_file": "episodes/right_069__20261014_101309_11203d.npz",
+      "aligned_samples": 367,
+      "valid_samples": 367,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_069/20261014_101309_11203d/video/head.mp4",
+      "head_video_relpath": "right_069/20261014_101309_11203d/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_070/20261014_101521_609ac2",
+      "data_file": "episodes/right_070__20261014_101521_609ac2.npz",
+      "aligned_samples": 273,
+      "valid_samples": 273,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_070/20261014_101521_609ac2/video/head.mp4",
+      "head_video_relpath": "right_070/20261014_101521_609ac2/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_071/20261014_101640_7d6f20",
+      "data_file": "episodes/right_071__20261014_101640_7d6f20.npz",
+      "aligned_samples": 330,
+      "valid_samples": 329,
+      "invalid_samples": 1,
+      "head_video": "/home/fx/A2/data/right/right+/right_071/20261014_101640_7d6f20/video/head.mp4",
+      "head_video_relpath": "right_071/20261014_101640_7d6f20/video/head.mp4",
+      "warnings": [
+        "1 aligned rows have stale data; valid_sample mask must be used by future sequence sampler",
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped",
+        "Video starts 0.717 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_072/20261014_101803_d7a815",
+      "data_file": "episodes/right_072__20261014_101803_d7a815.npz",
+      "aligned_samples": 307,
+      "valid_samples": 307,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_072/20261014_101803_d7a815/video/head.mp4",
+      "head_video_relpath": "right_072/20261014_101803_d7a815/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_073/20261014_101924_cc0c80",
+      "data_file": "episodes/right_073__20261014_101924_cc0c80.npz",
+      "aligned_samples": 338,
+      "valid_samples": 338,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_073/20261014_101924_cc0c80/video/head.mp4",
+      "head_video_relpath": "right_073/20261014_101924_cc0c80/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_074/20261014_102131_78e9d8",
+      "data_file": "episodes/right_074__20261014_102131_78e9d8.npz",
+      "aligned_samples": 510,
+      "valid_samples": 510,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_074/20261014_102131_78e9d8/video/head.mp4",
+      "head_video_relpath": "right_074/20261014_102131_78e9d8/video/head.mp4",
+      "warnings": []
+    },
+    {
+      "episode_id": "right_075/20261014_102312_d9c9ca",
+      "data_file": "episodes/right_075__20261014_102312_d9c9ca.npz",
+      "aligned_samples": 359,
+      "valid_samples": 359,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_075/20261014_102312_d9c9ca/video/head.mp4",
+      "head_video_relpath": "right_075/20261014_102312_d9c9ca/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_076/20261014_102439_ff7068",
+      "data_file": "episodes/right_076__20261014_102439_ff7068.npz",
+      "aligned_samples": 313,
+      "valid_samples": 313,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_076/20261014_102439_ff7068/video/head.mp4",
+      "head_video_relpath": "right_076/20261014_102439_ff7068/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_077/20261014_102949_b56d5e",
+      "data_file": "episodes/right_077__20261014_102949_b56d5e.npz",
+      "aligned_samples": 300,
+      "valid_samples": 300,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_077/20261014_102949_b56d5e/video/head.mp4",
+      "head_video_relpath": "right_077/20261014_102949_b56d5e/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped",
+        "Video starts 0.965 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_078/20261014_103113_71c8ed",
+      "data_file": "episodes/right_078__20261014_103113_71c8ed.npz",
+      "aligned_samples": 426,
+      "valid_samples": 426,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_078/20261014_103113_71c8ed/video/head.mp4",
+      "head_video_relpath": "right_078/20261014_103113_71c8ed/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_079/20261014_103439_1ba287",
+      "data_file": "episodes/right_079__20261014_103439_1ba287.npz",
+      "aligned_samples": 320,
+      "valid_samples": 320,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_079/20261014_103439_1ba287/video/head.mp4",
+      "head_video_relpath": "right_079/20261014_103439_1ba287/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_147/20261015_153750_23ab28",
+      "data_file": "episodes/right_147__20261015_153750_23ab28.npz",
+      "aligned_samples": 330,
+      "valid_samples": 330,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_147/20261015_153750_23ab28/video/head.mp4",
+      "head_video_relpath": "right_147/20261015_153750_23ab28/video/head.mp4",
+      "warnings": []
+    },
+    {
+      "episode_id": "right_149/20261015_153914_1cc798",
+      "data_file": "episodes/right_149__20261015_153914_1cc798.npz",
+      "aligned_samples": 397,
+      "valid_samples": 397,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_149/20261015_153914_1cc798/video/head.mp4",
+      "head_video_relpath": "right_149/20261015_153914_1cc798/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_151/20261015_154145_b02e6b",
+      "data_file": "episodes/right_151__20261015_154145_b02e6b.npz",
+      "aligned_samples": 338,
+      "valid_samples": 338,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_151/20261015_154145_b02e6b/video/head.mp4",
+      "head_video_relpath": "right_151/20261015_154145_b02e6b/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_153/20261015_154310_5b12ff",
+      "data_file": "episodes/right_153__20261015_154310_5b12ff.npz",
+      "aligned_samples": 335,
+      "valid_samples": 335,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_153/20261015_154310_5b12ff/video/head.mp4",
+      "head_video_relpath": "right_153/20261015_154310_5b12ff/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped",
+        "Video starts 0.885 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_155/20261015_154515_32fa90",
+      "data_file": "episodes/right_155__20261015_154515_32fa90.npz",
+      "aligned_samples": 624,
+      "valid_samples": 621,
+      "invalid_samples": 3,
+      "head_video": "/home/fx/A2/data/right/right+/right_155/20261015_154515_32fa90/video/head.mp4",
+      "head_video_relpath": "right_155/20261015_154515_32fa90/video/head.mp4",
+      "warnings": [
+        "3 aligned rows have stale data; valid_sample mask must be used by future sequence sampler",
+        "Video starts 0.824 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_157/20261015_154702_004931",
+      "data_file": "episodes/right_157__20261015_154702_004931.npz",
+      "aligned_samples": 325,
+      "valid_samples": 325,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_157/20261015_154702_004931/video/head.mp4",
+      "head_video_relpath": "right_157/20261015_154702_004931/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_159/20261015_154816_2535cc",
+      "data_file": "episodes/right_159__20261015_154816_2535cc.npz",
+      "aligned_samples": 251,
+      "valid_samples": 251,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_159/20261015_154816_2535cc/video/head.mp4",
+      "head_video_relpath": "right_159/20261015_154816_2535cc/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_161/20261015_154928_b98bad",
+      "data_file": "episodes/right_161__20261015_154928_b98bad.npz",
+      "aligned_samples": 284,
+      "valid_samples": 284,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_161/20261015_154928_b98bad/video/head.mp4",
+      "head_video_relpath": "right_161/20261015_154928_b98bad/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_163/20261015_155328_8c6818",
+      "data_file": "episodes/right_163__20261015_155328_8c6818.npz",
+      "aligned_samples": 283,
+      "valid_samples": 282,
+      "invalid_samples": 1,
+      "head_video": "/home/fx/A2/data/right/right+/right_163/20261015_155328_8c6818/video/head.mp4",
+      "head_video_relpath": "right_163/20261015_155328_8c6818/video/head.mp4",
+      "warnings": [
+        "Camera source frame gap 201.5 ms; all original frames retained",
+        "1 aligned rows have stale data; valid_sample mask must be used by future sequence sampler",
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_165/20261015_155455_3ad352",
+      "data_file": "episodes/right_165__20261015_155455_3ad352.npz",
+      "aligned_samples": 291,
+      "valid_samples": 291,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_165/20261015_155455_3ad352/video/head.mp4",
+      "head_video_relpath": "right_165/20261015_155455_3ad352/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_167/20261015_155648_f30cb8",
+      "data_file": "episodes/right_167__20261015_155648_f30cb8.npz",
+      "aligned_samples": 318,
+      "valid_samples": 318,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_167/20261015_155648_f30cb8/video/head.mp4",
+      "head_video_relpath": "right_167/20261015_155648_f30cb8/video/head.mp4",
+      "warnings": []
+    },
+    {
+      "episode_id": "right_169/20261015_155811_11ba97",
+      "data_file": "episodes/right_169__20261015_155811_11ba97.npz",
+      "aligned_samples": 348,
+      "valid_samples": 347,
+      "invalid_samples": 1,
+      "head_video": "/home/fx/A2/data/right/right+/right_169/20261015_155811_11ba97/video/head.mp4",
+      "head_video_relpath": "right_169/20261015_155811_11ba97/video/head.mp4",
+      "warnings": [
+        "1 aligned rows have stale data; valid_sample mask must be used by future sequence sampler",
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped",
+        "Video starts 0.767 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_171/20261015_155937_474155",
+      "data_file": "episodes/right_171__20261015_155937_474155.npz",
+      "aligned_samples": 399,
+      "valid_samples": 399,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_171/20261015_155937_474155/video/head.mp4",
+      "head_video_relpath": "right_171/20261015_155937_474155/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_173/20261015_160111_3c396c",
+      "data_file": "episodes/right_173__20261015_160111_3c396c.npz",
+      "aligned_samples": 289,
+      "valid_samples": 289,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_173/20261015_160111_3c396c/video/head.mp4",
+      "head_video_relpath": "right_173/20261015_160111_3c396c/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_175/20261015_160230_b6b8f9",
+      "data_file": "episodes/right_175__20261015_160230_b6b8f9.npz",
+      "aligned_samples": 293,
+      "valid_samples": 292,
+      "invalid_samples": 1,
+      "head_video": "/home/fx/A2/data/right/right+/right_175/20261015_160230_b6b8f9/video/head.mp4",
+      "head_video_relpath": "right_175/20261015_160230_b6b8f9/video/head.mp4",
+      "warnings": [
+        "Camera source frame gap 201.6 ms; all original frames retained",
+        "1 aligned rows have stale data; valid_sample mask must be used by future sequence sampler",
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped",
+        "Video starts 1.047 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_177/20261015_161009_b41958",
+      "data_file": "episodes/right_177__20261015_161009_b41958.npz",
+      "aligned_samples": 311,
+      "valid_samples": 308,
+      "invalid_samples": 3,
+      "head_video": "/home/fx/A2/data/right/right+/right_177/20261015_161009_b41958/video/head.mp4",
+      "head_video_relpath": "right_177/20261015_161009_b41958/video/head.mp4",
+      "warnings": [
+        "3 aligned rows have stale data; valid_sample mask must be used by future sequence sampler",
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped",
+        "Video starts 0.663 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_179/20261015_161239_46271c",
+      "data_file": "episodes/right_179__20261015_161239_46271c.npz",
+      "aligned_samples": 352,
+      "valid_samples": 352,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_179/20261015_161239_46271c/video/head.mp4",
+      "head_video_relpath": "right_179/20261015_161239_46271c/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped",
+        "Video starts 0.919 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_181/20261015_161409_8c4ace",
+      "data_file": "episodes/right_181__20261015_161409_8c4ace.npz",
+      "aligned_samples": 300,
+      "valid_samples": 300,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_181/20261015_161409_8c4ace/video/head.mp4",
+      "head_video_relpath": "right_181/20261015_161409_8c4ace/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_183/20261015_161621_804cf7",
+      "data_file": "episodes/right_183__20261015_161621_804cf7.npz",
+      "aligned_samples": 266,
+      "valid_samples": 266,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_183/20261015_161621_804cf7/video/head.mp4",
+      "head_video_relpath": "right_183/20261015_161621_804cf7/video/head.mp4",
+      "warnings": [
+        "Video starts 0.564 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_185/20261015_161742_2eb3d6",
+      "data_file": "episodes/right_185__20261015_161742_2eb3d6.npz",
+      "aligned_samples": 253,
+      "valid_samples": 253,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_185/20261015_161742_2eb3d6/video/head.mp4",
+      "head_video_relpath": "right_185/20261015_161742_2eb3d6/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_187/20261015_161900_f7c135",
+      "data_file": "episodes/right_187__20261015_161900_f7c135.npz",
+      "aligned_samples": 290,
+      "valid_samples": 290,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_187/20261015_161900_f7c135/video/head.mp4",
+      "head_video_relpath": "right_187/20261015_161900_f7c135/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped",
+        "Video starts 0.815 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_189/20261015_162018_7095b0",
+      "data_file": "episodes/right_189__20261015_162018_7095b0.npz",
+      "aligned_samples": 283,
+      "valid_samples": 283,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_189/20261015_162018_7095b0/video/head.mp4",
+      "head_video_relpath": "right_189/20261015_162018_7095b0/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped",
+        "Video starts 0.618 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_191/20261015_162137_deb3c9",
+      "data_file": "episodes/right_191__20261015_162137_deb3c9.npz",
+      "aligned_samples": 325,
+      "valid_samples": 325,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_191/20261015_162137_deb3c9/video/head.mp4",
+      "head_video_relpath": "right_191/20261015_162137_deb3c9/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_193/20261015_162256_0c853b",
+      "data_file": "episodes/right_193__20261015_162256_0c853b.npz",
+      "aligned_samples": 361,
+      "valid_samples": 358,
+      "invalid_samples": 3,
+      "head_video": "/home/fx/A2/data/right/right+/right_193/20261015_162256_0c853b/video/head.mp4",
+      "head_video_relpath": "right_193/20261015_162256_0c853b/video/head.mp4",
+      "warnings": [
+        "3 aligned rows have stale data; valid_sample mask must be used by future sequence sampler",
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    },
+    {
+      "episode_id": "right_195/20261015_162433_ca9595",
+      "data_file": "episodes/right_195__20261015_162433_ca9595.npz",
+      "aligned_samples": 325,
+      "valid_samples": 325,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_195/20261015_162433_ca9595/video/head.mp4",
+      "head_video_relpath": "right_195/20261015_162433_ca9595/video/head.mp4",
+      "warnings": []
+    },
+    {
+      "episode_id": "right_197/20261015_162551_186273",
+      "data_file": "episodes/right_197__20261015_162551_186273.npz",
+      "aligned_samples": 298,
+      "valid_samples": 298,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_197/20261015_162551_186273/video/head.mp4",
+      "head_video_relpath": "right_197/20261015_162551_186273/video/head.mp4",
+      "warnings": [
+        "Video starts 0.614 s before all joint streams are available; source video retained, no invented joint observations"
+      ]
+    },
+    {
+      "episode_id": "right_199/20261015_162708_2ff123",
+      "data_file": "episodes/right_199__20261015_162708_2ff123.npz",
+      "aligned_samples": 442,
+      "valid_samples": 442,
+      "invalid_samples": 0,
+      "head_video": "/home/fx/A2/data/right/right+/right_199/20261015_162708_2ff123/video/head.mp4",
+      "head_video_relpath": "right_199/20261015_162708_2ff123/video/head.mp4",
+      "warnings": [
+        "Hand feedback outside nominal 0..2000; zero-offset drift is possible; not clipped"
+      ]
+    }
+  ],
+  "failures": [],
+  "next_stage": "split by episode, fit training-only normalizers, decode selected RGB frames and create training dataset",
+  "quality_categories": {
+    "source_frame_gap_over_200ms": 4,
+    "capture_stamp_repeated_episodes": 1,
+    "stale_samples_episodes": 11,
+    "hand_feedback_outside_nominal_episodes": 84,
+    "startup_missing_joint_coverage_over_250ms_episodes": 29
+  }
+}

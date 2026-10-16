@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "episodes": 106,
+  "aligned_rows": 40097,
+  "masked_rows": 21,
+  "causality_checked_all_rows": true,
+  "integer_ns_grid_verified_all_rows": true,
+  "source_fingerprints_unchanged": true,
+  "independent_SQL_CDR_value_checks": 36,
+  "numpy": "2.2.5",
+  "opencv": "5.0.0",
+  "script_sha256": "b9ea9e7d2d9f96b845ea9ed5d2a6280d51cde4fb537dad0e31c40ca2ee7f3899",
+  "checks_note": "MP4 metadata and timestamp mapping checked; not a full decode or visual task-success reassessment",
+  "preview_browser_smoke_check": {
+    "episodes": 106,
+    "joint_channels": 13,
+    "video_source_set": true,
+    "initial_curve_labels_rendered": true
+  }
+}
